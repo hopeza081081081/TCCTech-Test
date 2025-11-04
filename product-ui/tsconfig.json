@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // ... (ค่าอื่นๆ ที่มีอยู่แล้ว) ...
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  // ...
+}
